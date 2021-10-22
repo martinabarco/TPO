@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/galeria.css">
+  <title>Estación Almagro</title>
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon/favicon3.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="almagro.html" class="navenlace"><span class="icon-undo2"></span>INICIO</a></li>
+              <li><a href="clientes.html"><span class="icon-users"></span>CLIENTES</a></li>
+              <li><a href="formulario.html"><span class="icon-profile"></span>RRHH</a></li>
+              <li><a href="contacto.html"><span class="icon-phone"></span>CONTACTO</a></li>
+        
+            </ul>
+          </nav>
+        <div class="divheader">
+        <div id="imagenheader7">
+          <img src="imagenes/ea.png" alt="">
+        </div>
+        <div class="h1">
+          <h1>GALERIA DE FOTOS</h1>
+        </div>
+        <div class="header_buttons">
+          <a href="" class="header_ingresar">Ingresar</a>
+          <a href="" class="header_registro">Registro</a>
+        </div>
+        </div>
+      </header>
+
+      <div class="centrar">
+      <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <img src="./imagenes/foto1.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto2.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto3.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto4.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-5" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto5.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-6" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto6.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-7" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/foto7.jpeg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-8" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./imagenes/frente.jpeg">
+            </div>
+
+          <!-- <label for="slide-5" class="slide-control next control-4">‹</label>
+            <label for="slide-5" class="slide-control prev control-6">‹</label>
+            <label for="slide-6" class="slide-control next control-5">‹</label>
+            <label for="slide-6" class="slide-control prev control-7">‹</label>
+            <label for="slide-7" class="slide-control next control-6">‹</label>
+            <label for="slide-7" class="slide-control prev control-8">‹</label>
+            <label for="slide-8" class="slide-control next control-7">‹</label>
+            <label for="slide-8" class="slide-control prev control-1">‹</label>
+            <label for="slide-4" class="slide-control next control-3">‹</label>
+            <label for="slide-4" class="slide-control prev control-5">›</label>
+            <label for="slide-3" class="slide-control prev control-4">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-8">›</label>--> 
+
+            <label for="slide-8" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-4" class="slide-control next control-3">›</label>
+            <label for="slide-3" class="slide-control prev control-4">‹</label>
+            <label for="slide-5" class="slide-control next control-4">›</label>
+            <label for="slide-4" class="slide-control prev control-5">›</label>
+            <label for="slide-6" class="slide-control next control-5">›</label>
+            <label for="slide-5" class="slide-control prev control-6">‹</label>
+            <label for="slide-7" class="slide-control next control-6">›</label>
+            <label for="slide-6" class="slide-control prev control-7">‹</label>
+            <label for="slide-8" class="slide-control next control-7">›</label>
+            <label for="slide-7" class="slide-control prev control-8">‹</label>
+            <label for="slide-1" class="slide-control next control-8">›</label>
+
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-4" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-5" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-6" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-7" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-8" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id="imagenfooter">
+      <img src="imagenes/img6.jpg" alt="">
+    </div>
+    <br>
+    <div id="direc_footer">
+      <h6>Saveedra 1050 - Venado Tuerto. Santa Fe - (3562) 15569338</h6>
+    </div>
+    <div id="iconos_footer">
+        <a class="bx bxl-twitter" href="https://twitter.com/home?lang=es" style="text-decoration: none; color:#2e483c;"></a>
+        <a class="bx bxl-instagram-alt"  href="https://www.instagram.com/" style="text-decoration: none; color:#2e483c;"></a>
+        <a class="bx bxl-facebook-circle" href="https://www.facebook.com/" style="text-decoration: none; color:#2e483c;" ></a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="./js/menu.js"></script>
+</body>
+</html>
