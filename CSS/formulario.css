@@ -255,10 +255,7 @@ form {
     .header_buttons{
         font-size:  0.3em;
         }
-    .navenlace{
-        font-size: 0.6em;              
-        padding: 5px 5px;
-        }
+  
     #mapa iframe{
         /*display:none;*/
         height: 250px;
