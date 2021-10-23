@@ -9,23 +9,6 @@ body{
     background-color: white;
 }
 
-/*.divheader{
-    display: inline-flex;
-    background: white;
-    color: white;
-    justify-content: space-between;
-    overflow: hidden;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    
-    
-}
-
-#imagenheader7{
-    width: 11.5%;
-}
-*/
 .divheader{
     display: grid;
     background: white;
@@ -82,8 +65,6 @@ header img{
     width: 100%;
     height: auto;
 }
- 
-
 
 .header {
     color: #244334;
@@ -173,6 +154,10 @@ form {
       opacity: 1;
     }
   }
+
+.btn btn-primary{
+    background-color: #2e483c;
+}
 
 /* Por debajo de 1000px */
 @media screen and (max-width: 1000px){
