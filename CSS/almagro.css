@@ -2,28 +2,24 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@font-face {
+    font-family:"Heritage";
+    src: url("../tipografia/fuente.ttf") format("truetype");
+  }
+@font-face {
+    font-family:"backcountry";
+    src: url("../tipografia/BACKCOUNTRY-Regular\ \(1\).ttf") format("truetype");
+  }
+@font-face {
+    font-family:"voster";
+    src: url("../tipografia/Voster\ Font\ \(1\).ttf") format("truetype");
+  }
+
 body{
     color:#2e483c;
-    
-    font-weight:600;
+    font-weight:500;
     background-color: white;
 }
-
-/*.divheader{
-    display: inline-flex;
-    background: white;
-    color: white;
-    justify-content: space-between;
-    overflow: hidden;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-}
-#imagenheader7{
-   width: 11.5%;
-}
-
-*/
 
 .divheader{
     display: grid;
@@ -52,10 +48,7 @@ body{
     align-self: center;    
     font-size: 2em;
     transition: transform 2s;
-}
-
-.h1:hover{
-    transform: scale(1.1,1.1);
+    font-family: voster;
     
 }
 
@@ -107,32 +100,6 @@ header img{
     transform: scale(1.2,1.2); 
 }
 
-/*
-nav{
-    background-color:#2e483c;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    flex-wrap: wrap;
-    border-radius: 3px;
-}
-
-.navenlace{
-    margin-left: 2rem;
-    background: lightgrey;
-    color:#2e483c;
-    padding: 10px 10px;
-    text-decoration: none;
-    border-radius: 2px;
-    border:2px solid   #74847b ;
-}
-
-.navenlace:hover{
-    background:rgb(158, 155, 155);
-}
-*/
 
 header nav{
     width: 100%;
@@ -228,9 +195,6 @@ aside{
     align-items: center;
 }
 
-/*aside img {
-    width: 100%;
-}*/
 
 #mapa{
     padding: 10px 20px;
@@ -246,9 +210,6 @@ footer img{
     width: 15%;
 }
 
-#direc_footer{
-    
-}
 
 #iconos_footer{
    font-size: 30px;
@@ -277,17 +238,7 @@ footer img{
         .header_buttons{
             font-size:  0.7em;
             }
-        /*.nav{    
-            display:block;
-            justify-content: center;
-            
-            }
-        .navenlace{
-            font-size: 0.8em;              
-            padding: 5px 5px;
-            }
-    
-        }*/
+     
         header nav{
             width: 100%;
             height: 100%;
@@ -295,8 +246,6 @@ footer img{
             margin:0;
             position:fixed;
             display:block;
-            
-           
     
         }
         header nav ul li {
@@ -328,6 +277,7 @@ footer img{
             float: right;
 
         }
+    }
 
        
 /* Por debajo de 600px */
@@ -338,11 +288,7 @@ footer img{
     .header_buttons{
         font-size:0.5em;
     }
-    /*.navenlace{
-        font-size: 0.7em;              
-        padding: 5px 5px;
-        }
-    */
+ 
     section{
             display:grid;
             margin-left: 2em;
@@ -356,7 +302,11 @@ footer img{
     #textosection p{
         font-size: 0.7em;
     }
-
+    #mapa iframe{
+            
+        height: 300px;
+        width: 300px;
+         }
 
 
     }
@@ -371,12 +321,9 @@ footer img{
     .header_buttons{
         font-size:  0.3em;
         }
-    /*.navenlace{
-        font-size: 0.6em;              
-        padding: 5px 5px;
-        }*/
+    
     #mapa iframe{
-        /*display:none;*/
+        
         height: 250px;
         width: 250px;
          }
@@ -390,11 +337,12 @@ footer img{
         font-size:0.8em;
         padding: 0;
     }
+    
 }
     /* Por debajo de 300px */
     @media screen and (max-width: 300px){
         #mapa iframe{
-            /*display:none;*/
+            
             height: 200px;
             width: 200px;
              }
